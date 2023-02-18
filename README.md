@@ -7,8 +7,9 @@
 ## Install
 
 ```bash
-npm install --save pcg-button-ui
+npm i pcg-button-ui
 ```
+[Npmjs Link](https://www.npmjs.com/package/pcg-button-ui)
 
 ## Usage
 
