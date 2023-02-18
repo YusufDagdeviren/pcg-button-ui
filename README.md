@@ -13,16 +13,28 @@ npm install --save pcg-button-ui
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'pcg-button-ui'
+import { Button } from 'pcg-button-ui'
 import 'pcg-button-ui/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return(
+  <>
+    <Button text="Text Button" type="text"/>
+    <br /><br />
+    <Button text="Default Button" type="default"/>
+    <br /><br />
+    <Button text="Dashed Button" type="dashed"/>
+    <br /><br />
+    <Button text="Primary Button" type="primary"/>
+    <br /><br />
+    <Button text="Link Button" type = "link"/>
+  </>
+  )
 }
+
+export default App
 ```
 
 ## License
